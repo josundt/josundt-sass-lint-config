@@ -1,0 +1,31 @@
+{
+  "name": "@josundt/sass-lint-config",
+  "version": "1.0.2",
+  "description": "Ruleset for sass (scss) code style and linting",
+  "main": ".sasslintrc",
+  "scripts": {
+    "lint": "echo \"No linting for this project\"",
+    "build": "echo \"No build for this project\"",
+    "test": "echo \"No tests for this project\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josundt/josundt-sass-lint-config.git"
+  },
+  "keywords": [
+    "sass-lint",
+    ".sasslintrc"
+  ],
+  "license": "ISC",
+  "files": [
+    ".sasslintrc",
+    ".sasslintrc-defaults.jsonc"
+  ],
+  "author": {
+    "name": "Jørn Andre Sundt",
+    "email": "jorn.andre.sundt@jasmin.no"
+  },
+  "dependencies": {
+    "sass-lint": "1.13.1"
+  }
+}
